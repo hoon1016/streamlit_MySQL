@@ -5,22 +5,6 @@ from datetime import datetime, date, time
 
 
 def main():
-    # title = st.text_input('책 제목 입력')
-    # author_fname = st.text_input('이름 입력')
-    # author_lname = st.text_input('성 입력')
-    # released_year = st.number_input('년도 입력')
-    # stock_quantity = st.number_input('수량 입력')
-    # pages = st.number_input('페이지입력')
-
-    # name = st.text_input('이름 입력')
-    # birth_date = st.date_input('생년월일')
-    # birth_time = st.time_input('시간입력')
-    
-    # birth_dt = datetime.combine(birth_date, birth_time)
-    
-    # print(birth_date)
-    # print(birth_time)
-    # print(birth_dt)
 
     st.subheader('몇년도 이후, 몇페이지 이상되는 책을 검색하고 싶으십니까?')
     released_year = st.number_input('년도 입력', min_value=1800, max_value=2050)
@@ -100,5 +84,3 @@ def main():
 
 if __name__ == '__main__' :    
     main()
-
-

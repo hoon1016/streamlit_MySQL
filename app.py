@@ -5,7 +5,7 @@ from datetime import datetime, date, time
 
 
 def main():
-
+    
     st.subheader('몇년도 이후, 몇페이지 이상되는 책을 검색하고 싶으십니까?')
     released_year = st.number_input('년도 입력', min_value=1800, max_value=2050)
     pages = st.number_input('페이지수 입력', min_value=10)

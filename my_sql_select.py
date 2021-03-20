@@ -23,7 +23,7 @@ def my_sql_select() :
     # st.write(query)
 
     try : 
-        # 1. 커넉터로부터 커넥션을 받는다.
+        # 1. 커넥터로부터 커넥션을 받는다.
         connection = mysql.connector.connect(
             host = 'database-1.c8incbwwf4p9.us-east-2.rds.amazonaws.com',
             database = 'yhbe',
